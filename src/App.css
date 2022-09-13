@@ -1,0 +1,603 @@
+/* *
+{
+    border: 1px solid;
+} */
+body
+{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.box1
+{
+    height: 90%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(253, 248, 248, 0.5);
+    position: absolute;
+    z-index: 2;
+}
+.headbar
+{    
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+.logo
+{
+    width: 170px;
+    z-index: 2;
+    height: 25px
+}
+.hbutton
+{
+    z-index: 2;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 800;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 12px 50px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box1-1
+{
+    display: flex;
+    z-index: 2;
+}
+.bod1
+{
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 6%;
+    z-index: 2;
+}
+.bod1head
+{
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 500px;
+    line-height: 1.5;
+    z-index: 2;
+}
+.boddesc
+{
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 470px;
+    z-index: 2;
+}
+.bod1button
+{
+    cursor: pointer;
+    padding: 18px 60px;
+    background-color: hsl(208, 11%, 55%);
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    z-index: 2;
+    margin-top: 10px;
+    border-radius: 60px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bod2
+{
+    width: 46%;
+    z-index: 2;
+}
+.box2
+{
+    display: flex;
+    width: 88%;
+    margin: 130px auto 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box2text
+{
+    max-width: 60%;
+    padding: 110px 16% 0 10%;
+}
+.box2text-head
+{
+    font-size: 28px;
+    font-weight: 700;
+}
+.box2text-desc
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(208, 11%, 55%);
+}
+.box2image
+{
+    max-width: 32%;
+    height: auto;
+    margin: 30px;
+    
+}
+#box3
+{
+    flex-direction: row-reverse;
+    margin-top: 0;
+}
+.box3image
+{
+    width: 32%;
+    height: auto;
+    margin: 50px 50px 50px 120px;
+}
+
+#box3text
+{
+    padding: 100px 3% 0 13%;
+}
+    #box4image
+    {
+        margin-right: 50px;
+    }
+    #box4
+    {
+        margin-top: 40px;
+        margin-bottom: 200px;
+    }
+.box5
+{
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    text-align: center;
+    padding: 50px 0;
+    transform: translateY(40%);
+    background-color: #fff;
+}
+.box5head
+{
+    font-size: 29px;
+}
+#box5button
+{
+    font-size: 17px;
+    padding: 26px 90px;
+}
+.box6
+{
+    background-color: #00252E;
+    padding-top: 200px;
+}
+.box6-1
+{
+    width: 80%;
+    margin: auto;
+}
+.logo1
+{
+    margin-bottom: 40px;
+}
+.box6-groups
+{
+    display: flex;
+}
+.box6location
+{
+    width: 30%;
+}
+.location
+{
+    display: flex;
+}
+.location-image
+{
+    width: 11px;
+    height: 15px;
+}
+.location-desc
+{
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    margin: 0 0px 15px 30px;
+}
+.call
+{
+    display: flex;
+    margin-top: 10px;
+}
+.call-image
+{
+    width: 15px;
+    height: 15px;
+}
+.call-desc
+{
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 20px 25px;
+}
+.tag 
+{
+    font-size: 16px;
+    margin: 20px 0;
+    color: #fff;
+}
+.box6tags1
+{
+    margin-left: 10%;
+}
+.box6tags2
+{
+    margin-left: 10%;
+}
+.footer
+{
+    font-size: 12px;
+    color: #fff;
+    text-align: right;
+    margin: 10px 10% 0 0;
+    padding-bottom: 50px;
+}
+
+@media (min-width:1440px) 
+{
+    .bod2
+    {
+        height: 500px;
+        width: 30%;
+        margin-left: 16%;
+    }    
+    .bod1
+    {
+        width: 20%;
+        margin-left: 10%;
+    }
+    .box1
+    {
+        height: auto;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width:1100px) 
+{
+    .box2text
+    {
+        padding-bottom: 50px;
+    }    
+    #box3text
+    {
+        padding-bottom: 50px;
+    }
+    .bod2
+    {
+        max-height: 400px;
+        margin-top: 100px;
+    }
+    .box1
+    {
+        height: auto;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width:750px) 
+{
+    .box1
+    {
+        background-image: none;
+    }
+    .box1-1
+    {
+        flex-direction: column;
+    }
+    .bod1
+    {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }   
+
+    .bod1head
+    {
+        font-size: 52px;
+        max-width: 90%;
+        text-align: center;
+    } 
+    .boddesc
+    {
+        font-size: 29px;
+        max-width: 87%;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .bod1button
+    {
+        font-size: 22px;
+        padding: 24px 120px;
+        margin-bottom: 170px;
+    }
+    .box1
+    {
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .bod1button
+    {
+        margin-bottom: 100px;
+    }
+    .bod2
+    {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .box2
+    {
+        flex-direction: column-reverse;
+    }
+    .box2image
+    {
+        max-width: 75%;
+        margin: 70px auto;
+    }
+    .box2text
+    {
+        padding: 0;
+        max-width: 83%;
+        text-align: center;
+        margin: 0 auto 50px auto;
+    }
+    .box2text-head
+    {
+        font-size: 32px;
+    }
+    .box2text-desc
+    {
+        font-size: 25px;
+        width: 100%;
+    }
+    #box3
+    {
+        flex-direction: column-reverse;
+    }
+    #box3text
+    {
+        padding: 0;
+    }
+    .box3image
+    {
+        width: 75%;
+        margin: 70px auto;
+    }
+    #box4
+    {
+        margin-bottom: 50px;
+    }
+    .box5
+    {
+        width: 95%;
+    }
+    .box5head
+    {
+        font-size: 31px;
+    }
+    #box5button
+    {
+        padding: 28px 100px;
+        margin: 30px 0 20px 0;
+    }
+    .box6-1
+    {
+        width: 95%;
+    }
+    .logo1
+    {
+        width: 300px;
+    }
+    .box6-groups
+    {
+        flex-direction: column;
+    }
+    .location-image
+    {
+        width: 30px;
+        height: 35px;
+        margin-top: 7px;
+    }
+    .location-desc
+    {
+        font-size: 32px;
+    }
+    .box6location{
+        width: 100%;
+    }
+    .call-image
+    {
+        width: 30px;
+        height: 30px;
+    }
+    .call-desc
+    {
+        font-size: 25px;
+    }
+    .tag
+    {
+        font-size: 28px;
+    }
+    .box6tags1
+    {
+        margin: 70px 0 0 3%;
+    }
+    .box6tags2
+    {
+        margin-left: 3%;
+    }
+    #tag
+    {
+        margin-bottom: 0;
+    }
+    #tag1
+    {
+        margin-top: 0;
+    }
+    .tag
+    {
+        margin: 40px 0;
+    }
+    .footer
+    {
+        text-align: center;
+        font-size: 17px;
+        margin-right: 0;
+    }
+}
+@media (max-width:600px) 
+{
+    .headbar
+    {
+        flex-direction: column;
+    }    
+    .logo
+    {
+        margin: 0 auto;
+    }
+    .hbutton
+    {
+        font-size: 16px;
+        padding: 25px 50px;
+        margin-top: 50px;
+    }
+    .boxx 
+    {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:450px)
+{
+    .bod1head
+    {
+        font-size: 37px;
+        line-height: normal;
+    }    
+    .hbutton
+    {
+        padding: 17px 25px;
+    }
+    .boddesc
+    {
+        font-size: 23px;
+    }
+    .headbar
+    {
+        padding-bottom: 20;
+    }
+    .bod1button
+    {
+        margin-bottom: 50px;
+        padding: 18px 50px;       
+    }
+    .box2
+    {
+        margin-top: 50px;
+    }
+    .box2text-desc
+    {
+        font-size: 20px;
+    }
+    #box4
+    {
+        margin-bottom: 0;
+    }
+    .box5
+    {
+        padding: 20px 0;
+        width: 85%;
+    }
+    .box5head
+    {
+        font-size: 26px;
+    }
+    #box5button
+    {
+        padding: 20px 50px;
+        margin-top: 20px;
+    }
+    .box6
+    {
+        padding-top: 150px;
+    }
+    .logo1
+    {
+        width: 200px;
+    }
+    .location-desc
+    {
+        font-size: 20px;
+        width: 90%;
+    }
+    .call-desc
+    {
+        font-size: 20px;
+    }
+    #email
+    {
+        font-size: 20px;
+    }
+    .tag
+    {
+        font-size: 20px;
+    }
+    .footer
+    {
+        font-size: 15px;
+    }
+}
+@media (max-width:330px) 
+{
+    .bod1head
+    {
+        font-size: 32px;
+    }    
+    .boddesc
+    {
+        font-size: 18px;
+    }
+    .bod1button
+    {
+        font-size: 14px;
+        padding: 14px 30px;
+    }
+    .box1
+    {
+        height: auto;
+    }
+    #box5button
+    {
+        font-size: 11px;
+        padding: 12px 30px;
+    }
+    .box5head
+    {
+        font-size: 20px;
+    }
+}
+
+
+.App {
+  text-align: center;
+}
